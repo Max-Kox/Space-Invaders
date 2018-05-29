@@ -1,29 +1,0 @@
-Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
-F (.\startup.s)(0x5B0BE9C4)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 524"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\Nokia5110.c)(0x5A7725EA)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
-I (Nokia5110.h)(0x5A787850)
-F (.\SpaceInvaders.c)(0x5B0BEE03)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
-I (tm4c123gh6pm.h)(0x5A775A57)
-I (Nokia5110.h)(0x5A787850)
-I (Random.h)(0x5A7763AC)
-I (PLL.h)(0x5B0BED15)
-I (ADC.h)(0x5A5FD025)
-I (LED_and_Buttons.h)(0x5A5E8BFA)
-I (Sound.h)(0x5A5F4099)
-F (.\ADC.c)(0x5B0BE2F6)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
-I (ADC.h)(0x5A5FD025)
-I (tm4c123gh6pm.h)(0x5A775A57)
-F (.\LED_and_Buttons.c)(0x5B0BE2FE)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\led_and_buttons.o --omf_browse .\led_and_buttons.crf --depend .\led_and_buttons.d)
-I (tm4c123gh6pm.h)(0x5A775A57)
-I (LED_and_Buttons.h)(0x5A5E8BFA)
-F (.\Sound.c)(0x5B0BE306)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
-I (DAC.h)(0x5A5F357A)
-I (Sound.h)(0x5A5F4099)
-I (tm4c123gh6pm.h)(0x5A775A57)
-F (.\DAC.c)(0x5B0BE2D9)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
-I (DAC.h)(0x5A5F357A)
-I (tm4c123gh6pm.h)(0x5A775A57)
-F (.\Random.c)(0x5A787D01)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\random.o --omf_browse .\random.crf --depend .\random.d)
-I (Random.h)(0x5A7763AC)
-F (.\PLL.c)(0x5B0BEE70)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
-I (PLL.h)(0x5B0BED15)
